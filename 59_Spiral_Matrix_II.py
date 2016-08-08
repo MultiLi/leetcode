@@ -12,7 +12,7 @@ class Solution(object):
         [ 7, 6, 5 ]
     ]
     """
-    
+
     def generateSeq(self, n, dir, origin):
         step = 1 if dir < 2 else -1
         if dir % 2:
@@ -30,10 +30,11 @@ class Solution(object):
 
         result = [[0 for dummy_i in range(n)] for dummy_j in range(n)]
         origin = (0,-1)
-        dummy = origin
+
         l = n
         dir = 0
         num = 0
+        dummy = origin
         for dummy in self.generateSeq(l, dir, origin):
             num += 1
             result[dummy[0]][dummy[1]] = num
