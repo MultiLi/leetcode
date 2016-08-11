@@ -1,0 +1,1 @@
+For 307. Range Sum Query - Mutable Problem, which the only operations are updating and outputing a partial sum of a given array, the solution is to implement a data structure called Binary Index Tree. To be learned!
