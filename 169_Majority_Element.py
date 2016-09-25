@@ -6,7 +6,6 @@ class Solution(object):
         """
 
         ind = 0
-
         candidate = 0
         nTimes = 0
 
